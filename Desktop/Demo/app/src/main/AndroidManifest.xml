@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smart.com.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GridviewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".child.FirstActivity"/>
+        <activity android:name=".child.SecondActivity"/>
+
+        <activity android:name=".OneActivity"/>
+        <activity android:name=".SixActivity"/>
+        <activity android:name=".TwoActivity"/>
+        <activity android:name=".ThreeActivity"/>
+    </application>
+
+</manifest>
