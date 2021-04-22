@@ -1,5 +1,5 @@
 # Demo
-Email: 1984123951@qq.com
+Email: jsontang@qq.com
 
 RecyclerView和GridView类似,子控件页面跳转集合了首页轮播
 
